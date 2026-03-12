@@ -14,7 +14,7 @@ Vide tutoriais do PI.
 
 ## Hazel
 
-## Integrantes: <a href="https://www.linkedin.com/in/danilooliveiradealmeida">Danilo Almeida</a>, <a href="https://www.linkedin.com/in/davi-bigotto-018721353/">Davi Bigotto</a>, <a href="https://www.linkedin.com/in/katiely-silva-264387295/">Katiely Silva</a>,<a href="https://www.linkedin.com/in/laura-pelizzer-b928142b4/">Laura Pelizzer</a>, <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a>
+## Integrantes: <a href="https://www.linkedin.com/in/danilooliveiradealmeida">Danilo Almeida</a>, <a href="https://www.linkedin.com/in/davi-bigotto-018721353/">Davi Bigotto</a>, <a href="https://www.linkedin.com/in/katiely-silva-264387295/">Katiely Silva</a>, <a href="https://www.linkedin.com/in/laura-pelizzer-b928142b4/">Laura Pelizzer</a>, <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/eduardo-savino/">Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/">Ronaldo Araujo Pinto</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/adriano-valente/">Me. Adriano Valente</a>, <a href="https://www.linkedin.com/in/jbuesso/">José Carlos Buesso Junior</a>
 
