@@ -22,7 +22,7 @@ Vide tutoriais do PI.
 
 <p align="center">
 <img src="Imagens/PHOTO-2026-03-12-23-22-06.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Logo by <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
 </p>
 
 
