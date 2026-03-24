@@ -1,0 +1,219 @@
+# README — Implementação de Paginação com SQLite
+
+## 1. Objetivo
+
+Este módulo do projeto tem como objetivo implementar a funcionalidade de **paginação de produtos** no sistema marketplace em C#, permitindo que os itens cadastrados sejam exibidos em blocos menores ao invés de todos de uma só vez.
+
+Essa abordagem melhora:
+
+* a organização da listagem
+* a experiência de navegação
+* a performance em cenários com muitos produtos
+
+---
+
+## 2. Contexto da funcionalidade
+
+Em um marketplace, a quantidade de produtos tende a crescer rapidamente.
+Por isso, exibir todos os registros em uma única listagem pode causar:
+
+* poluição visual
+* dificuldade de navegação
+* lentidão em consultas maiores
+* pior experiência do usuário
+
+A paginação resolve esse problema ao dividir a listagem em páginas.
+
+---
+
+## 3. Tecnologias utilizadas
+
+A funcionalidade foi desenvolvida utilizando:
+
+* **C#**
+* **.NET**
+* **SQLite**
+* **Pacote NuGet: Microsoft.Data.Sqlite**
+
+---
+
+## 4. Estrutura utilizada
+
+A implementação da paginação foi organizada em duas partes principais:
+
+### 4.1 `Program.cs`
+
+Responsável por:
+
+* chamar a função de paginação
+* exibir os produtos no console
+* permitir navegação entre páginas
+
+### 4.2 `ProdRepository.cs` / `produtorepository.cs`
+
+Responsável por:
+
+* consultar o banco de dados
+* aplicar `LIMIT` e `OFFSET`
+* retornar somente os produtos da página atual
+
+---
+
+## 5. Lógica da paginação
+
+A paginação funciona com base em dois parâmetros:
+
+* **Página atual**
+* **Quantidade de itens por página**
+
+### Fórmula do OFFSET:
+
+OFFSET = (pagina - 1) * tamanho
+
+Exemplo:
+
+* Página 1 com 5 itens → OFFSET = 0
+* Página 2 com 5 itens → OFFSET = 5
+* Página 3 com 5 itens → OFFSET = 10
+
+---
+
+## 6. Consulta SQL utilizada
+
+A busca paginada é feita com a seguinte lógica:
+
+```sql
+SELECT * FROM produtos
+ORDER BY id
+LIMIT @limite OFFSET @offset;
+```
+
+### Explicação:
+
+* `ORDER BY id` → garante ordem consistente
+* `LIMIT @limite` → define quantos itens serão exibidos por página
+* `OFFSET @offset` → pula os itens das páginas anteriores
+
+---
+
+## 7. Implementação no repositório
+
+A classe de repositório possui um método responsável por buscar apenas os produtos da página solicitada.
+
+### Exemplo de assinatura:
+
+* `BuscarProdutos(int pagina, int tamanho)`
+
+### Função do método:
+
+* calcular o `offset`
+* abrir conexão com SQLite
+* executar a consulta
+* converter cada linha em objeto `produto`
+* retornar uma lista paginada
+
+---
+
+## 8. Fluxo de execução no console
+
+No `Program.cs`, a navegação foi implementada com um loop que:
+
+1. limpa a tela
+2. busca os produtos da página atual
+3. exibe os produtos
+4. aguarda comando do usuário
+
+### Controles:
+
+* **D** → próxima página
+* **A** → página anterior
+* **S** → sair
+
+---
+
+## 9. Benefícios da paginação
+
+A paginação traz benefícios importantes para o projeto:
+
+* **Melhor organização visual**
+* **Mais escalabilidade**
+* **Redução de carga por consulta**
+* **Preparação para grandes volumes de dados**
+* **Base para futuras interfaces web**
+
+Esses benefícios são relevantes para o projeto **Mr.Nut**, já que um marketplace B2B pode possuir muitos anúncios ativos simultaneamente.
+
+---
+
+## 10. Relação com o projeto Mr.Nut
+
+No contexto do marketplace **Mr.Nut**, a paginação poderá ser utilizada em:
+
+* listagem de anúncios para compradores
+* catálogo por categoria
+* busca por região
+* listagem de favoritos
+* painel administrativo de anúncios pendentes
+* histórico de avaliações
+
+---
+
+## 11. Observações importantes
+
+### 11.1 Dependência do SQLite
+
+Para a paginação funcionar corretamente, é necessário que o projeto tenha:
+
+* pacote `Microsoft.Data.Sqlite` instalado
+* conexão válida com o banco `marketplace.db`
+* tabela `produtos` criada
+* dados inseridos previamente
+
+---
+
+### 11.2 Possível problema encontrado
+
+Caso o projeto não rode corretamente, o problema mais comum está em:
+
+* ausência do pacote `Microsoft.Data.Sqlite`
+* erro de referência no `.csproj`
+* conflito entre arquivos duplicados (`ProdRepository.cs` e `produtorepository.cs`)
+* namespace inconsistente
+
+---
+
+## 12. Conclusão
+
+A implementação da paginação demonstra uma melhoria prática no sistema de marketplace, permitindo uma listagem mais eficiente e organizada dos produtos armazenados em banco de dados.
+
+Essa funcionalidade representa um passo importante rumo à evolução do projeto para um sistema mais robusto, escalável e alinhado com as necessidades do marketplace **Mr.Nut**.
+
+---
+
+## 13. Arquivos relacionados
+
+Os principais arquivos relacionados à parte de paginação são:
+
+* `Program.cs`
+* `prodrepository.cs`
+* `produtorepository.cs`
+* `Produtos.cs`
+* `banco.cs`
+
+---
+
+## 14. Recomendação técnica
+
+Para evitar conflitos, recomenda-se manter apenas **uma única versão do repositório**, preferencialmente:
+
+* `ProdRepository.cs`
+
+E padronizar:
+
+* nome da classe
+* namespace
+* nome do arquivo
+
+Isso reduz erros e facilita manutenção futura.
+
+---
