@@ -24,15 +24,16 @@ Como a plataforma possui várias tabelas relacionadas, como fornecedores, lojist
 
 ### Índices automáticos
 
-Alguns índices já são criados automaticamente pelo PostgreSQL quando usamos PRIMARY KEY e UNIQUE.
+Alguns índices já são criados automaticamente pelo MySQL quando usamos PRIMARY KEY e UNIQUE.
 
 ### Primary Key
 As chaves primárias de cada tabela já possuem índice automático, por exemplo:
-id_fornecedor
-id_lojista
-id_produto
-id_pedido
-id_item_pedido
+
+* id_fornecedor
+* id_lojista
+* id_produto
+* id_pedido
+* id_item_pedido
 
 Isso ajuda porque cada registro pode ser encontrado rapidamente pelo seu identificador.
 
@@ -42,7 +43,7 @@ Isso é importante porque esses dados não podem se repetir e também podem ser 
 
 ### Índices criados manualmente
 
-Além dos índices automáticos, também é importante criar índices em alguns campos que são chave estrangeira, porque o PostgreSQL não faz isso sozinho.
+Além dos índices automáticos, também é importante criar índices em alguns campos que são chave estrangeira, para melhorar o desempenho das consultas.
 
 ### Índice em produtos
 
