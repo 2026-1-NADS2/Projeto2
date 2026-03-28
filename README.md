@@ -1,18 +1,12 @@
-```sh
-Utilize o site <https://www.toptal.com/developers/gitignore> para gerar seu arquivo gitignore e apague este campo.
-
-Vide tutoriais do PI.
-```
-
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# KIOSK
 
-## KiosK
+## Marketplace B2B
 
 ## Integrantes: <a href="https://www.linkedin.com/in/danilooliveiradealmeida">Danilo Almeida</a>, <a href="https://www.linkedin.com/in/davi-bigotto-018721353/">Davi Bigotto</a>, <a href="https://www.linkedin.com/in/katiely-silva-264387295/">Katiely Silva</a>, <a href="https://www.linkedin.com/in/laura-pelizzer-b928142b4/">Laura Pelizzer</a>, <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a>
 
@@ -22,16 +16,12 @@ Vide tutoriais do PI.
 
 <p align="center">
 <img src="Imagens/PHOTO-2026-03-12-23-22-06.jpg" alt="NOME DO JOGO" border="0">
-  Logo by <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a> 
+  Logo KIOSK Marketplace
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+KIOSK é uma plataforma web de marketplace B2B que conecta fornecedores e compradores por meio de anúncios de produtos, facilitando a busca, comparação e negociação entre empresas de forma rápida, organizada e sem intermediação nas transações.
+
 
 ## 🛠 Estrutura de pastas
 
@@ -65,24 +55,6 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
-
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
 
 <b>HTML:</b>
 
