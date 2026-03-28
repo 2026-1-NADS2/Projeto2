@@ -39,13 +39,13 @@ SERVIDOR_BD_KIOSK
 │   ├── app.js
 │   ├── db.js
 │   ├── db.test.js
-│   ├── KIOSKBD_MYSQL.sql
 │   ├── routes.js
 │   └── server.js
 │
 ├── .env
 ├── package.json
 └── package-lock.json
+└── KIOSKBD_MYSQL.sql
 ```
 
 Cada arquivo possui uma função específica dentro da aplicação.
