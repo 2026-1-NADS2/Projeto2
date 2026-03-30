@@ -45,7 +45,8 @@ SERVIDOR_BD_KIOSK
 ├── .env
 ├── package.json
 └── package-lock.json
-└── KIOSKBD_MYSQL.sql
+
+KIOSKBD_MYSQL código SQL utilizado
 ```
 
 Cada arquivo possui uma função específica dentro da aplicação.
