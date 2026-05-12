@@ -63,20 +63,19 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
 Para abrir este projeto você necessita das seguintes ferramentas:
 
--<a href="https://godotengine.org/download">GODOT</a>
-
+Visual Studio Code
 ```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
+npm install
+npm run dev
 ```
 
+
 ## 📋 Licença/License
-Utilize o link <https://chooser-beta.creativecommons.org/> para fazer uma licença CC BY 4.0.
+Desenvolvido por: <a href="https://www.linkedin.com/in/danilooliveiradealmeida">Danilo Almeida</a>, <a href="https://www.linkedin.com/in/davi-bigotto-018721353/">Davi Bigotto</a>, <a href="https://www.linkedin.com/in/katiely-silva-264387295/">Katiely Silva</a>, <a href="https://www.linkedin.com/in/laura-pelizzer-b928142b4/">Laura Pelizzer</a>, <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a>
+
+Este trabalho está licenciado sob uma <a href="[https://www.linkedin.com/in/danilooliveiradealmeida](https://creativecommons.org/licenses/by/4.0/)">Licença CC BY-ND 4.0</a>,
 
 ## 🎓 Referências
 
