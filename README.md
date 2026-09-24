@@ -4,11 +4,11 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# KIOSK
+# Próxima Etapa
 
-## Marketplace B2B
+## App
 
-## Integrantes: <a href="https://www.linkedin.com/in/danilooliveiradealmeida">Danilo Almeida</a>, <a href="https://www.linkedin.com/in/davi-bigotto-018721353/">Davi Bigotto</a>, <a href="https://www.linkedin.com/in/katiely-silva-264387295/">Katiely Silva</a>, <a href="https://www.linkedin.com/in/laura-pelizzer-b928142b4/">Laura Pelizzer</a>, <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a>
+## Integrantes: <a href="https://www.linkedin.com/in/danilooliveiradealmeida">Danilo Almeida</a>, <a href="https://www.linkedin.com/in/katiely-silva-264387295/">Katiely Silva</a>, <a href="https://www.linkedin.com/in/laura-pelizzer-b928142b4/">Laura Pelizzer</a>, <a href="https://www.linkedin.com/in/matheus-quio-2797b4301/">Matheus Quio</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/eduardo-savino/">Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/">Ronaldo Araujo Pinto</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/adriano-valente/">Adriano Valente</a>, <a href="https://www.linkedin.com/in/jbuesso/">José Carlos Buesso Junior</a>
 
@@ -16,11 +16,11 @@
 
 <p align="center">
 <img src="Imagens/PHOTO-2026-03-12-23-22-06.jpg" alt="NOME DO JOGO" border="0">
-  Logo KIOSK Marketplace
+  Próxima Etapa logo
 </p>
 
 
-KIOSK é uma plataforma web de marketplace B2B que conecta fornecedores e compradores por meio de anúncios de produtos, facilitando a busca, comparação e negociação entre empresas de forma rápida, organizada e sem intermediação nas transações.
+Placeholder: texto descritivo
 
 
 ## 🛠 Estrutura de pastas
@@ -56,20 +56,8 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 💻 Configuração para Desenvolvimento
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
-Visual Studio Code
-```sh
-npm install
-npm run dev
-```
 
 
 ## 📋 Licença/License
